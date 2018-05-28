@@ -1,6 +1,5 @@
 <template>
   <div class="container">
-    <h1>布局</h1>
     <div class="content">
       <h2>水平导航菜单</h2>
       <el-menu
@@ -72,30 +71,42 @@
 </template>
 
 <script>
-import { Menu, MenuItem, Submenu } from "element-ui";
+import { Menu, MenuItem, MenuItemGroup, Submenu } from "element-ui";
 export default {
   components: {
     [Menu.name]: Menu,
     [MenuItem.name]: MenuItem,
-    [Submenu.name]: Submenu
+    [Submenu.name]: Submenu,
+    [MenuItemGroup.name]: MenuItemGroup
   },
   data() {
-      return {
-        activeIndex: '1',
-        activeIndex2: '1'
-      };
+    return {
+      activeIndex: '1',
+      activeIndex2: '1'
+    };
+  },
+  methods: {
+    handleOpen(key, keyPath) {
+      console.log(key, keyPath);
     },
-    methods: {
-      handleSelect(key, keyPath) {
-        console.log(key, keyPath);
-      }
+    handleClose(key, keyPath) {
+      console.log(key, keyPath);
+    },
+    handleSelect(key, keyPath) {
+      console.log(key, keyPath);
     }
+  }
 };
 </script>
 
-<style>
+<style scoped>
 .content {
-  width: 80%;
-  float: right;
+  width: 80%
+}
+.el-menu-demo {
+  width: 80%
+}
+.el-menu-vertical-demo {
+  width: 218px
 }
 </style>
