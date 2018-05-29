@@ -45,7 +45,7 @@ a:hover
 }
 html
 {
-  font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
+  font-family: "PingFang SC","思源黑体","微软雅黑","Microsoft YaHei",Arial,sans-serif;
 }
 body,html{
   width: 100%;
@@ -55,4 +55,83 @@ body,html{
   content: "";
   display: block;
   clear: both;
+}
+
+
+/**覆盖element**/
+.el-button{
+  font-size: 12px;
+  border: none
+}
+.el-button--default {
+  border: 1px solid #409EFF
+}
+/* 大按钮 */
+.el-button--medium {
+  padding: 14px 0;
+  width: 128px
+}
+/* 中按钮 */
+.el-button--small {
+  width: 98px;
+  padding: 12px 0;
+}
+/* 小按钮 */
+.el-button--mini {
+  width: 64px;
+  padding: 9px 0;
+}
+/* 超小按钮 */
+.el-button--tiny {
+  width: 56px;
+  padding: 8px 0;
+}
+/* 文字按钮 */
+.el-button--text{
+  font-size: 16px
+}
+.el-button-text-gray {
+  color: #999999
+}
+/* 主要按钮禁用状态 */
+.el-button.is-disabled, .el-button.is-disabled:focus, .el-button.is-disabled:hover{
+  color: rgba(93, 184, 241, 0.36);
+  cursor: not-allowed;
+  background-image: none;
+  background-color: #fff;
+  border: 1px solid rgba(93, 184, 241, 0.36);
+}
+.el-button--primary.is-disabled, .el-button--primary.is-disabled:active, .el-button--primary.is-disabled:focus, .el-button--primary.is-disabled:hover {
+  color:#fff;
+  background-color: rgba(93, 184, 241, 0.36);
+  border: none
+}
+/* tab页 */
+.el-tabs--card>.el-tabs__header .el-tabs__nav {
+  border: none
+}
+.el-tabs--card>.el-tabs__header .el-tabs__item {
+  border-right: none;
+  border-left: none
+}
+.el-tabs--card>.el-tabs__header .el-tabs__item.is-active {
+  border-bottom-color: #409EFF
+}
+/* 输入框 */
+.el-input__inner {
+  height: 36px;
+  line-height: 36px;
+  border: 1px solid #9b9fa3;
+  font-size: 14px;
+  color: #333333;
+}
+.el-input__inner::-webkit-input-placeholder{
+  columns: #999999;;
+  font-size: 12px;
+}
+.el-input.is-active .el-input__inner, .el-input__inner:focus{
+  border-color: #9b9fa3
+}
+.el-input__inner:hover {
+  border-color: #9b9fa3
 }

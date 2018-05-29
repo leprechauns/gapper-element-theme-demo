@@ -4,34 +4,44 @@
       <h2>主要按钮</h2>
     </el-row>
     <el-row class='same_row'>
-      <el-button>默认按钮</el-button>
-      <el-button type="primary">主要按钮</el-button>
-      <el-button type="success">成功按钮</el-button>
-      <el-button type="info">信息按钮</el-button>
-      <el-button type="warning">警告按钮</el-button>
-      <el-button type="danger">危险按钮</el-button>
+      <el-button size="medium" type="primary">大按钮</el-button>
+      <el-button size="small" type="primary">中按钮</el-button>
+      <el-button size="mini" type="primary">小按钮</el-button>
+      <el-button size="mini" class='el-button--tiny' type="primary">超小按钮</el-button>
     </el-row>
     <el-row>
       <h2>次要按钮</h2>
     </el-row>
     <el-row class='same_row'>
-      <el-button>默认按钮</el-button>
-      <el-button type="primary">主要按钮</el-button>
-      <el-button type="success">成功按钮</el-button>
-      <el-button type="info">信息按钮</el-button>
-      <el-button type="warning">警告按钮</el-button>
-      <el-button type="danger">危险按钮</el-button>
-    </el-row>
-    <el-row class='same_row'>
-      <el-button icon="el-icon-search" circle></el-button>
-      <el-button type="primary" icon="el-icon-edit" circle></el-button>
-      <el-button type="success" icon="el-icon-check" circle></el-button>
-      <el-button type="info" icon="el-icon-message" circle></el-button>
-      <el-button type="warning" icon="el-icon-star-off" circle></el-button>
-      <el-button type="danger" icon="el-icon-delete" circle></el-button>
+      <el-button size="medium">大按钮</el-button>
+      <el-button size="small">中按钮</el-button>
+      <el-button size="mini">小按钮</el-button>
+      <el-button size="mini" class='el-button--tiny'>超小按钮</el-button>
     </el-row>
     <el-row>
-
+      <h2>主要按钮禁用状态</h2>
+    </el-row>
+    <el-row class='same_row'>
+      <el-button size="medium" disabled type="primary">大按钮</el-button>
+      <el-button size="small" disabled type="primary">中按钮</el-button>
+      <el-button size="mini" disabled type="primary">小按钮</el-button>
+      <el-button size="mini" class='el-button--tiny' disabled type="primary">超小按钮</el-button>
+    </el-row>
+    <el-row>
+      <h2>次要按钮禁用状态</h2>
+    </el-row>
+    <el-row class='same_row'>
+      <el-button disabled size="medium">大按钮</el-button>
+      <el-button disabled size="small">中按钮</el-button>
+      <el-button disabled size="mini">小按钮</el-button>
+      <el-button disabled size="mini" class='el-button--tiny'>超小按钮</el-button>
+    </el-row>
+    <el-row>
+      <h2>文字按钮</h2>
+    </el-row>
+    <el-row class='same_row'>
+      <el-button type='text'>文字按钮</el-button>
+      <el-button type='text' class='el-button-text-gray'>文字按钮</el-button>
     </el-row>
   </div>  
 </template>

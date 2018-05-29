@@ -2,40 +2,42 @@
   <div class="container">
     <div class="same_div bg-primary">
       <ul>
-        <li>primary</li>
-        <li>#409EFF</li>
+        <li>UI基本色</li>
+        <li>#282d33</li>
       </ul>
     </div>
     <div class="same_div bg-success">
       <ul>
-        <li>success</li>
-        <li>#67C23A</li>
+        <li>公司标准色</li>
+        <li>#2ba07f</li>
       </ul>
     </div>
     <div class="same_div bg-warning">
       <ul>
-        <li>warning</li>
-        <li>#E6A23C</li>
+        <li>G-IOT</li>
+        <li>#62c2d1</li>
       </ul>
     </div>
     <div class="same_div bg-danger">
       <ul>
-        <li>Danger</li>
-        <li>#F56C6C</li>
+        <li>LabMai</li>
+        <li>#e27471</li>
       </ul>
     </div>
     <div class="same_div bg-info">
       <ul>
-        <li>info</li>
-        <li>#909399</li>
+        <li>17kong</li>
+        <li>#478cd2</li>
+      </ul>
+    </div>
+    <div class="same_div bg-gapper">
+      <ul>
+        <li>gapper</li>
+        <li>#5db8f1</li>
       </ul>
     </div>
   </div>
 </template>
-
-<script>
-  
-</script>
 
 <style scoped>
 .same_div{
@@ -48,18 +50,21 @@
   font-size: 14px;
 }
 .bg-primary {
-  background: #409EFF
+  background: #282d33
 }
 .bg-success {
-  background: #67C23A
+  background: #2ba07f
 }
 .bg-warning {
-  background: #E6A23C
+  background: #62c2d1
 }
 .bg-danger {
-  background: #F56C6C
+  background: #e27471
 }
 .bg-info {
-  background: #909399
+  background: #478cd2
+}
+.bg-gapper {
+  background: #5db8f1
 }
 </style>

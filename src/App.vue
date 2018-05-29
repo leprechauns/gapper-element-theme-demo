@@ -9,16 +9,16 @@
       <Font></Font>
     </div>
     <div class="everycommponent">
-      <h1 class="same-menu-name">图标</h1>
-      <Icon></Icon>
-    </div>
-    <div class="everycommponent">
-      <h1 class="same-menu-name">菜单</h1>
-      <Menu></Menu>
-    </div>
-    <div class="everycommponent">
       <h1 class="same-menu-name">按钮</h1>
       <Button></Button>
+    </div>
+    <div class="everycommponent">
+      <h1 class="same-menu-name">页卡</h1>
+      <TabMenu></TabMenu>
+    </div>
+    <div class="everycommponent">
+      <h1 class="same-menu-name">文本框</h1>
+      <Inputs></Inputs>
     </div>
   </div>
 </template>
@@ -26,17 +26,17 @@
 <script>
 import Color from './components/Color.vue'
 import Font from './components/Font.vue'
-import Icon from './components/Icon.vue'
-import Menu from './components/Menu.vue'
 import Button from './components/Button.vue'
+import TabMenu from './components/TabMenu.vue'
+import Inputs from './components/Inputs.vue'
 export default {
   name: 'app',
   components: {
     Color,
     Font,
-    Menu,
-    Icon,
-    Button
+    Button,
+    TabMenu,
+    Inputs
   }
 }
 </script>
