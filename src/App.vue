@@ -1,23 +1,23 @@
 <template>
   <div id="app">
     <div class="everycommponent">
-      <h1 class="same-menu-name">色彩</h1>
+      <h2 class="same-menu-name">色彩</h2>
       <Color></Color>
     </div>
     <div class="everycommponent">
-      <h1 class="same-menu-name">字体</h1>
+      <h2 class="same-menu-name">字体</h2>
       <Font></Font>
     </div>
     <div class="everycommponent">
-      <h1 class="same-menu-name">按钮</h1>
+      <h2 class="same-menu-name">按钮</h2>
       <Button></Button>
     </div>
     <div class="everycommponent">
-      <h1 class="same-menu-name">页卡</h1>
+      <h2 class="same-menu-name">页卡</h2>
       <TabMenu></TabMenu>
     </div>
     <div class="everycommponent">
-      <h1 class="same-menu-name">文本框</h1>
+      <h2 class="same-menu-name">文本框</h2>
       <Inputs></Inputs>
     </div>
   </div>
@@ -46,17 +46,13 @@ export default {
   box-sizing: border-box;
   width: calc(100% - 40px);
   height: calc(100% - 40px);
-  margin: 20px;
   padding: 30px
 }
 .same-menu-name {
   box-sizing: border-box;
-  border-bottom: 1px solid #ededed;
-  padding-bottom: 10px;
-  margin-bottom: 10px
-}
-.everycommponent{
-  margin-bottom: 25px
+  text-align: center;
+  color: #ffffff;
+  background: #2ba07f
 }
 </style>
 

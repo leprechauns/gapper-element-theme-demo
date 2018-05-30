@@ -1,62 +1,246 @@
 @font-face {
-  font-family: 'Genee-UI-Font';
+  font-family: 'Genee-Group';
   src:
-    url('fonts/Genee-UI-Font.ttf?ew96nn') format('truetype'),
-    url('fonts/Genee-UI-Font.woff?ew96nn') format('woff'),
-    url('fonts/Genee-UI-Font.svg?ew96nn#Genee-UI-Font') format('svg');
+    url('fonts/Genee-Group.ttf?lrni6m') format('truetype'),
+    url('fonts/Genee-Group.woff?lrni6m') format('woff'),
+    url('fonts/Genee-Group.svg?lrni6m#Genee-Group') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-i, .icomoon-liga {
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'Genee-UI-Font' !important;
+  font-family: 'Genee-Group' !important;
   speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-  
-  /* Enable Ligatures ================ */
-  letter-spacing: 0;
-  -webkit-font-feature-settings: "liga";
-  -moz-font-feature-settings: "liga=1";
-  -moz-font-feature-settings: "liga";
-  -ms-font-feature-settings: "liga" 1;
-  font-feature-settings: "liga";
-  -webkit-font-variant-ligatures: discretionary-ligatures;
-  font-variant-ligatures: discretionary-ligatures;
 
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.add:before {
+.icon-data-sheet .path1:before {
   content: "\e900";
+  color: rgb(94, 94, 94);
 }
-.close:before {
+.icon-data-sheet .path2:before {
   content: "\e901";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
 }
-.delete:before {
+.icon-data-sheet .path3:before {
   content: "\e902";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
 }
-.drag:before {
+.icon-data-sheet .path4:before {
   content: "\e903";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
 }
-.editing:before {
+.icon-data-sheet .path5:before {
   content: "\e904";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
 }
-.hide:before {
+.icon-data-sheet .path6:before {
   content: "\e905";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
 }
-.menu:before {
+.icon-data-sheet .path7:before {
   content: "\e906";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
 }
-.setting:before {
+.icon-data-sheet .path8:before {
   content: "\e907";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
 }
-.shut-down:before {
+.icon-data-sheet .path9:before {
   content: "\e908";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-data-sheet .path10:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-data-sheet .path11:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-data-sheet .path12:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-kong:before {
+  content: "\e90c";
+}
+.icon-add-building:before {
+  content: "\e90d";
+}
+.icon-add-member:before {
+  content: "\e90e";
+}
+.icon-add-room:before {
+  content: "\e90f";
+}
+.icon-add:before {
+  content: "\e910";
+}
+.icon-alert:before {
+  content: "\e911";
+}
+.icon-authority-management:before {
+  content: "\e912";
+}
+.icon-building:before {
+  content: "\e913";
+}
+.icon-business-system:before {
+  content: "\e914";
+}
+.icon-content-management:before {
+  content: "\e915";
+}
+.icon-curve-graph:before {
+  content: "\e916";
+}
+.icon-custom-fields:before {
+  content: "\e917";
+}
+.icon-cut:before {
+  content: "\e918";
+}
+.icon-data-analysis:before {
+  content: "\e919";
+}
+.icon-edit:before {
+  content: "\e91a";
+}
+.icon-export:before {
+  content: "\e91b";
+}
+.icon-form:before {
+  content: "\e91c";
+}
+.icon-full-screen:before {
+  content: "\e91d";
+}
+.icon-gelete:before {
+  content: "\e91e";
+}
+.icon-genee-line:before {
+  content: "\e91f";
+}
+.icon-genee-spot:before {
+  content: "\e920";
+}
+.icon-geographic-Information:before {
+  content: "\e921";
+}
+.icon-giot:before {
+  content: "\e922";
+}
+.icon-group-management:before {
+  content: "\e923";
+}
+.icon-histogram:before {
+  content: "\e924";
+}
+.icon-index:before {
+  content: "\e925";
+}
+.icon-information:before {
+  content: "\e926";
+}
+.icon-labmai:before {
+  content: "\e927";
+}
+.icon-latitude:before {
+  content: "\e928";
+}
+.icon-link:before {
+  content: "\e929";
+}
+.icon-more:before {
+  content: "\e92a";
+}
+.icon-notice:before {
+  content: "\e92b";
+}
+.icon-number:before {
+  content: "\e92c";
+}
+.icon-organization:before {
+  content: "\e92d";
+}
+.icon-pie:before {
+  content: "\e92e";
+}
+.icon-plus:before {
+  content: "\e92f";
+}
+.icon-Refresh:before {
+  content: "\e930";
+}
+.icon-return:before {
+  content: "\e931";
+}
+.icon-room:before {
+  content: "\e932";
+}
+.icon-search:before {
+  content: "\e933";
+}
+.icon-settings:before {
+  content: "\e934";
+}
+.icon-shut-down:before {
+  content: "\e935";
+}
+.icon-sign-out:before {
+  content: "\e936";
+}
+.icon-smart-lab:before {
+  content: "\e937";
+}
+.icon-star-selected:before {
+  content: "\e938";
+}
+.icon-star:before {
+  content: "\e939";
+}
+.icon-system-selection:before {
+  content: "\e93a";
+}
+.icon-text:before {
+  content: "\e93b";
+}
+.icon-title:before {
+  content: "\e93c";
+}
+.icon-type:before {
+  content: "\e93d";
+}
+.icon-user-management:before {
+  content: "\e93e";
+}
+.icon-user:before {
+  content: "\e93f";
+}
+.icon-work-board:before {
+  content: "\e940";
+}
+.icon-workflow:before {
+  content: "\e941";
 }
