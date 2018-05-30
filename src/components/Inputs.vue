@@ -18,7 +18,7 @@
       <el-row style='margin-top: 10px'>
         <div class="input-inner-search">
           <i class="icon-search"></i>
-          <input type="text" class='input-search-inner' />
+          <input type="text" placeholder="提示性文字" class='input-search-inner' />
         </div>
       </el-row>
       <ul class="code-area">
@@ -35,7 +35,7 @@
       <el-row style='margin-top: 10px'>
         <div class="input-group-search clearFix">
           <button class='icon-search'></button>
-          <input type="text" placeholder="请输入要搜索的设备名称" class='input-group-inner' />
+          <input type="text" placeholder="提示性文字" class='input-group-inner' />
           <button class='input-group-button'>搜索</button>
         </div>
       </el-row>
@@ -54,7 +54,7 @@
       <el-row style='margin-top: 10px'>
         <div class="input-group-search group-search-higher clearFix">
           <button class='icon-search'></button>
-          <input type="text" placeholder="请输入要搜索的设备名称" class='input-group-inner' />
+          <input type="text" placeholder="提示性文字" class='input-group-inner' />
           <button class='input-group-button'>搜索</button>
         </div>
       </el-row>
