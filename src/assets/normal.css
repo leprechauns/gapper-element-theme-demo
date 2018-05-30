@@ -68,14 +68,85 @@ body,html{
   border-radius: 4px;
   margin: 10px 0;
 }
+/* 特殊搜索框的样式 */
+.input-inner-search input,
+.input-group-search input{
+  -webkit-appearance: none;
+  outline: none;
+}
+.input-group-search button {
+  -webkit-appearance: none;
+  background: #fff;  
+  outline: 0;
+}
 .input-inner-search {
-
+  position: relative;
 }
 .input-inner-search .icon-search {
-
+  display: inline-block;
+  font-size: 16px;
+  position: absolute;
+  color: #333333;
+  top: 5px;
+  left: 5px;
 }
 .input-inner-search .input-search-inner {
   border-top: none;
   border-left: none;
   border-right: none;
+  font-size: 14px;
+  padding: 5px 0 5px 30px;
+  color: #666666;
 }
+.input-group-search {
+  height: 36px;
+}
+.input-group-search .icon-search{
+  float: left;
+  height: 36px;
+  line-height: 34px;
+  font-size: 16px;
+  color: #333333;
+  border: 1px solid #5db8f1;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-right: none;
+}
+.input-group-search .input-group-inner{
+  float: left;
+  border: 1px solid #5db8f1;
+  border-left: none;
+  border-right: none;
+  box-sizing: border-box;
+  height: 36px;
+  padding: 5px 8px;
+  font-size: 12px;
+  color: #666666;
+}
+.input-group-search .input-group-button{
+  float: left;
+  box-sizing: border-box;
+  height: 36px;
+  background: #5db8f1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 5px 10px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.input-group-search.group-search-higher{
+  height: 40px;
+}
+.input-group-search.group-search-higher .icon-search{
+  height: 40px;
+  line-height: 38px;
+}
+.input-group-search.group-search-higher .input-group-inner{
+  height: 40px;
+}
+.input-group-search.group-search-higher .input-group-button{
+  height: 40px;
+}
+/* 特殊搜索框 */
