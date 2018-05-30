@@ -149,4 +149,19 @@ body,html{
 .input-group-search.group-search-higher .input-group-button{
   height: 40px;
 }
+.input-inner-search input::-webkit-input-placeholder,
+.input-group-search input::-webkit-input-placeholder
+{
+  color: #cccccc
+}
+.input-inner-search input::-moz-input-placeholder,
+.input-group-search input::-moz-input-placeholder
+{
+  color: #cccccc
+}
+.input-inner-search input::-ms-input-placeholder,
+.input-group-search input::-ms-input-placeholder
+{
+  color: #cccccc
+}
 /* 特殊搜索框 */
