@@ -36,6 +36,23 @@
     </div>
     <div class="border-div">
       <el-row>
+        <h3>弱化按钮</h3>
+      </el-row>
+      <el-row class='same_row'>
+        <el-button class="el-button--light" size="medium">大按钮</el-button>
+        <el-button class="el-button--light" size="small">中按钮</el-button>
+        <el-button class="el-button--light" size="mini">小按钮</el-button>
+        <el-button size="mini" class='el-button--tiny el-button--light'>超小按钮</el-button>
+      </el-row>
+      <ul class="code-area">
+        <li><code>{{htmlString19}}</code></li>
+        <li><code>{{htmlString20}}</code></li>
+        <li><code>{{htmlString21}}</code></li>
+        <li><code>{{htmlString22}}</code></li>
+      </ul>
+    </div>
+    <div class="border-div">
+      <el-row>
         <h3>主要按钮禁用状态</h3>
       </el-row>
       <el-row class='same_row'>
@@ -110,6 +127,10 @@ export default {
       htmlString16: `<el-button disabled size="mini" class='el-button--tiny'>超小按钮</el-button>`,
       htmlString17: `<el-button type='text'>文字按钮</el-button>`,
       htmlString18: `<el-button type='text' class='el-button-text-gray'>文字按钮</el-button>`,
+      htmlString19: `<el-button class="el-button--light" size="medium">大按钮</el-button>`,
+      htmlString20: `<el-button class="el-button--light" size="small">中按钮</el-button>`,
+      htmlString21: `<el-button class="el-button--light" size="mini">小按钮</el-button>`,
+      htmlString22: `<el-button size="mini" class='el-button--tiny el-button--light'>超小按钮</el-button>`,
     }
   }
 }
